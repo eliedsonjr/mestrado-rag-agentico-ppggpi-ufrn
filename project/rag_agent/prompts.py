@@ -91,7 +91,7 @@ def get_aggregation_prompt() -> str:
     Returns:
         str: A string contendo as instruções do prompt de síntese e formatação.
     """
-    return """Você é um Consultor de Processos Acadêmicos do CERES/UFRN.
+    return """Você é um Consultor Administrativo e de Processos Acadêmicos do CERES/UFRN.
 Sua tarefa é combinar várias respostas recuperadas em uma resposta única, clara e oficial.
 
 Diretrizes:
