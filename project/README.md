@@ -144,22 +144,3 @@ Todas as interações realizadas na aba "Consulta ao Assistente" são anonimizad
 Estes dados são utilizados exclusivamente para extração de métricas de acurácia e avaliação qualitativa na fase de resultados da pesquisa.
 
 ---
-
-## 🎓 Como Citar Este Trabalho
-
-Este software foi desenvolvido como parte da dissertação de mestrado no Programa de Gestão de Processos do CERES/UFRN. Se você utilizar este código ou arquitetura em sua pesquisa, por favor, cite da seguinte forma:
-
-**ABNT:**
-> SEU SOBRENOME, Seu Nome. *Título da sua Dissertação*. 2026. Dissertação (Mestrado) - Centro de Ensino Superior do Seridó (CERES), Universidade Federal do Rio Grande do Norte (UFRN), Caicó, 2026.
-
-**BibTeX:**
-```bibtex
-@mastersthesis{SeuSobrenome2026,
-  author       = {Seu Nome e Sobrenome},
-  title        = {O Título Completo da sua Dissertação},
-  school       = {Universidade Federal do Rio Grande do Norte (CERES/UFRN)},
-  year         = {2026},
-  type         = {Dissertação de Mestrado}
-}
-```
-```
