@@ -11,7 +11,7 @@ custom_css = """
 
     /* 2. Limita a largura da tela para leitura confortável (Evita linhas de texto muito longas) */
     .gradio-container {
-        max-width: 1200px !important;
+        max-width: 95% !important;
         margin: auto !important;
         font-family: 'Inter', system-ui, sans-serif !important;
     }

@@ -110,30 +110,17 @@ def create_gradio_ui() -> gr.Blocks:
     def clear_chat_handler() -> None:
         """Limpa o histórico da sessão de chat atual."""
         chat_interface.clear_session()
-    
-    # --- DEFINIÇÃO DO TEMA VISUAL (IDENTIDADE UFRN) ---
-    tema_institucional = gr.themes.Soft(
-        primary_hue="blue",      
-        secondary_hue="indigo",  
-        neutral_hue="slate",     
-        font=[gr.themes.GoogleFont("Inter"), "sans-serif"]
-    ).set(
-        button_primary_background_fill="*primary_600",
-        button_primary_background_fill_hover="*primary_700",
-        block_title_text_weight="600",
-        block_border_width="1px",
-        block_shadow="none"
-    )
+
     
     # --- CONSTRUÇÃO DA INTERFACE ---
-    with gr.Blocks(title="Assistente CERES/UFRN", theme=tema_institucional) as demo:
+    with gr.Blocks(title="Assistente CERES/UFRN") as demo:
         
         with gr.Row():
             with gr.Column(scale=8):
                 gr.Markdown(
                     """
-                    # 🏛️ Assistente Virtual de Processos - CERES/UFRN
-                    **Plataforma de Suporte à Decisão Baseada em Inteligência Artificial Agêntica**
+                    # 🤖 Assistente Virtual do CERES/UFRN
+                    **Plataforma de Suporte Administrativo Baseada em Inteligência Artificial Agêntica**
                     """
                 )
             with gr.Column(scale=2):
@@ -146,9 +133,9 @@ def create_gradio_ui() -> gr.Blocks:
                 with gr.Row():
                     with gr.Column(scale=7):
                         chatbot = gr.Chatbot(
-                            height=550, 
+                            height="75vh", 
                             show_label=False,
-                            placeholder="<strong>Olá! Sou o Assistente Virtual do CERES/UFRN.</strong><br>Estou lendo os documentos oficiais para ajudar. Pergunte sobre processos, resoluções ou calendários!"
+                            placeholder="<strong>Olá! Sou o Assistente Virtual do CERES/UFRN.</strong><br>Estou lendo os documentos oficiais para ajudar. Pergunte sobre processos, normas ou calendários! Meu Banco de Dados encontra-se ao lado."
                         )
                         chatbot.clear(clear_chat_handler)
                         
