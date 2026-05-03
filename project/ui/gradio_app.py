@@ -119,7 +119,7 @@ def create_gradio_ui() -> gr.Blocks:
             with gr.Column(scale=8):
                 gr.Markdown(
                     """
-                    # 🤖 Assistente Virtual do CERES/UFRN
+                    # 🤖 Assistente Virtual Institucional
                     **Plataforma de Suporte Administrativo Baseada em Inteligência Artificial Agêntica**
                     """
                 )
@@ -135,7 +135,7 @@ def create_gradio_ui() -> gr.Blocks:
                         chatbot = gr.Chatbot(
                             height="75vh", 
                             show_label=False,
-                            placeholder="<strong>Olá! Sou o Assistente Virtual do CERES/UFRN.</strong><br>Estou lendo os documentos oficiais para ajudar. Pergunte sobre processos, normas ou calendários! Meu Banco de Dados encontra-se ao lado."
+                            placeholder="<strong>Olá! Sou o Assistente Virtual Institucional.</strong><br>Estou lendo os documentos oficiais para ajudar. Pergunte sobre processos, normas ou calendários! Meu Banco de Dados encontra-se ao lado."
                         )
                         chatbot.clear(clear_chat_handler)
                         
