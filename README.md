@@ -184,13 +184,13 @@ PASQUINI, Giovanni. **Agentic RAG for Dummies**. GitHub, 2025. Disponível em: <
 ### Aba "Consulta ao Assistente"
 
 ```markdown
-![Aba Consulta ao Assistente](project/img/screenshot_consulta.png)
+![Aba Consulta ao Assistente](img/screenshot_consulta.png)
 ```
 
 ### Aba "Gestão de Banco Vetorial (Admin)"
 
 ```markdown
-![Aba Gestão de Banco Vetorial](project/img/screenshot_admin.png)
+![Aba Gestão de Banco Vetorial](img/screenshot_admin.png)
 ```
 
 ### Exemplo de interação
@@ -202,7 +202,7 @@ PASQUINI, Giovanni. **Agentic RAG for Dummies**. GitHub, 2025. Disponível em: <
 **Resposta do ASSIST-CERES:**
 
 ```markdown
-![Aba Gestão de Banco Vetorial](project/img/screenshot_exemplo.png)
+![Aba Gestão de Banco Vetorial](img/screenshot_exemplo.png)
 ```
 ---
 
